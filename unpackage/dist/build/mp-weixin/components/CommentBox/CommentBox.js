@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/CommentBox/CommentBox"],{"481d":function(n,t,e){"use strict";e.r(t);var o=e("6093"),c=e.n(o);for(var u in o)"default"!==u&&function(n){e.d(t,n,(function(){return o[n]}))}(u);t["default"]=c.a},6093:function(n,t,e){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var o=function(){Promise.resolve().then(function(){return resolve(e("bd1b"))}.bind(null,e)).catch(e.oe)},c={name:"CommentBox",components:{CommentBox:o},props:{commentData:{type:Object},isReply:{type:Boolean,default:!1}},data:function(){return{}},methods:{commentReply:function(n){console.log("click",this.commentData.comment_content),n.isReply&&(n.comment.reply_id=n.comment.comment_id,n.comment.comment_id=this.commentData.comment_id),this.$emit("commentReply",n)}}};t.default=c},9984:function(n,t,e){"use strict";var o=e("c826"),c=e.n(o);c.a},bd1b:function(n,t,e){"use strict";e.r(t);var o=e("d829"),c=e("481d");for(var u in c)"default"!==u&&function(n){e.d(t,n,(function(){return c[n]}))}(u);e("9984");var r,i=e("f0c5"),m=Object(i["a"])(c["default"],o["b"],o["c"],!1,null,null,null,!1,o["a"],r);t["default"]=m.exports},c826:function(n,t,e){},d829:function(n,t,e){"use strict";e.d(t,"b",(function(){return c})),e.d(t,"c",(function(){return u})),e.d(t,"a",(function(){return o}));var o={uniDateformat:function(){return Promise.all([e.e("common/vendor"),e.e("uni_modules/uni-dateformat/components/uni-dateformat/uni-dateformat")]).then(e.bind(null,"c0c6"))},CommentBox:function(){return Promise.resolve().then(e.bind(null,"bd1b"))}},c=function(){var n=this,t=n.$createElement;n._self._c},u=[]}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/CommentBox/CommentBox-create-component',
+    {
+        'components/CommentBox/CommentBox-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("bd1b"))
+        })
+    },
+    [['components/CommentBox/CommentBox-create-component']]
+]);

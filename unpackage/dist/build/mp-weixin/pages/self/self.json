@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "用户信息",
+  "navigationBarBackgroundColor": "#f25037",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons"
+  }
+}

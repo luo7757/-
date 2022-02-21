@@ -1,0 +1,123 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/follow/follow",
+			"meta":{
+				"needLogin": true
+			},
+			"style": {
+				"navigationBarTitleText": "关注",
+				"navigationBarBackgroundColor":"#f25037",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/self/self",
+			"style": {
+				"navigationBarTitleText": "用户信息",
+				"navigationBarBackgroundColor":"#f25037",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path" : "pages/userInfo/login/login",
+			"name": "login",
+			"style" :                                                                                    
+			{
+					"navigationBarTitleText": "用户登录",
+					"enablePullDownRefresh": false,
+					"navigationBarBackgroundColor":"#F25037",
+					"navigationBarTextStyle": "white"
+			}
+			
+		},
+		{
+			"path" : "pages/LabelAdmin/LabelAdmin",
+			"style" :                                                                                    
+			{
+					"navigationBarTitleText": "标签管理",
+					"enablePullDownRefresh": false,
+					"navigationBarBackgroundColor":"#F25037",
+					"navigationBarTextStyle": "white"
+			}
+			
+		},
+		{
+			"path" : "pages/articleDetail/articleDetail",
+			"style" :                                                                                    
+			{
+					"navigationBarTitleText": "文章详情",
+					"navigationBarBackgroundColor":"#F25037",
+					"enablePullDownRefresh": false,
+					"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/myAarticle/myAarticle",
+			"style" :                                                                                    
+			{
+					"navigationBarTitleText": "我的文章",
+					"enablePullDownRefresh": false,
+					"navigationBarBackgroundColor":"#F25037",
+					"navigationBarTextStyle": "white"
+			},
+			"meta":{
+				"needLogin": true
+			}
+		},
+		{
+			"path" : "pages/feedBack/feedBack",
+			"style" :                                                                                    
+			{
+					"navigationBarTitleText": "意见反馈",
+					"enablePullDownRefresh": false,
+					"navigationBarBackgroundColor":"#F25037",
+					"navigationBarTextStyle": "white"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "社区",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar" : {
+		"color": "#666",
+		"selectedColor":"#F25037",
+		"backgroundColor":"#FFFFFF",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/img/home.png",
+				"selectedIconPath":"static/img/home-active.png",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/follow/follow",
+				"iconPath":"static/img/follow.png",
+				"selectedIconPath":"static/img/follow-active.png",
+				"text":"关注"
+			},
+			{
+				"pagePath":"pages/self/self",
+				"iconPath":"static/img/my.png",
+				"selectedIconPath":"static/img/my-active.png",
+				"text":"我的"
+			}
+		]
+	},
+	"sitemapLocation":"sitemap.json"
+}

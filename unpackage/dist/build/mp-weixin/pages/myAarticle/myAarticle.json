@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的文章",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#F25037",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "list-item": "/components/ListItem/ListItem"
+  }
+}

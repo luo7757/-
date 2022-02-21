@@ -1,0 +1,1 @@
+<view><block wx:if="{{articleList.length}}"><list-item vue-id="b90c8dc0-1" articleList="{{articleList}}" bind:__l="__l"></list-item></block><block wx:if="{{authorDataNone}}"><view class="no-data">暂无文章</view></block></view>

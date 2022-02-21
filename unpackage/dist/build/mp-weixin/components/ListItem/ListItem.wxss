@@ -1,0 +1,1 @@
+.list-scroll-container{height:100%}.list-scroll-container .list-scroll{overflow:hidden;height:100%;box-sizing:border-box}.no-data{height:400rpx;line-height:400rpx;width:100%;text-align:center;font-size:24rpx;color:#666}
